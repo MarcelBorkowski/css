@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Sposoby podłączania CSS do kodu strony WWW</title>
+</head>
+<body>
+<table border="1">
+
+<tr>
+
+<b><u>1)Zewnętrzny</u> arkusz stylów.</b>
+<td> 
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+</td>
+
+<b>2)Styl <u>lokalny</u></b> 
+<td>
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+</td>
+
+<b><u>3)Wewętrzny</u>styl arkuszów</b>
+<td>
+<head>
+ <style type="text/css">
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ </style>
+</head>
+</td>
+
+<b><u>4)Alternatywny</u>arkusz stylów</b>
+<td>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+</td>
+
+<b><u>5)Import</u> arkusza stylów</b>
+<td>
+<style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style>
+</td>
+  
+</tr>
+   
+
+</body>
+</html>
