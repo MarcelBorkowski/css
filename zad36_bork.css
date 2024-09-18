@@ -4,29 +4,35 @@
  margin : 50px;
 }
 div {
- background : rgb(127,255,212);
+ background : rgb(204, 153, 255);
  width : 400px;
  border : 3px black solid;
  }
 h1 {
- margin : 20px;
-border-top: 2px dotted red;
-border-left: 2px dashed green;
-border-right: 2px double blue;
-border-bottom: 2px ridge magenta;
- background : rgb(238,130,238);
+ margin : 30px;
+border-top: 3px double fuchsia;
+border-left: 3px groove fuchsia;
+border-right: 3px inset fuchsia;
+border-bottom: 3px dotted fuchsia;
+ background : rgb(89, 0, 179);
  }
+
+
+ 
 h2 {
-margin : 30px;
-border : 3px solid black;
-border-top-color: magenta;
-border-right-color: aqua;
-border-left-color: lime;
-border-bottom-color: pink;
+margin : 40px;
+border : 4x solid black;
+border-top-color: red;
+border-right-color: purple;
+border-left-color: orange;
+border-bottom-color: blue;
 background : rgb(244,164,96);
 }
+
+
+ 
 h3 {
-margin : 35px;
+margin : 45px;
 border : 5px solid black;
-background : rgb(240,128,128);
+background : rgb(255, 51, 153);
 }
